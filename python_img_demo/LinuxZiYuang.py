@@ -93,6 +93,6 @@ def get_download_url(book):
  
 if __name__=='__main__':
     #book = input ("请输入资料名称:")
-    book = "freemind"
+    book = "GUI"
     print(book)
     get_download_url(book)
