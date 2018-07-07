@@ -14,10 +14,18 @@
 
 import cv2
 import numpy as np
+import os
 
 
 e1 = cv2.getTickCount()
 # your code execution.
+for i in range(10):
+    ret = i * i
+    print (ret)
+e2 = cv2.getTickCount()     
+time = (e1 - e2)/cv2.getTickFrequency()
+print('time%s'%time)
 
+os.system("Pause")
 
 
